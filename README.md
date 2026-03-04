@@ -5,7 +5,9 @@ Accidental Messenger
 IoT-Based Smart Accident Detection and Alert System Documentation
 
 Project Type: Technical Documentation Sample
+
 Domain: Internet of Things (IoT), Smart Transportation, Emergency Systems
+
 Documentation Author: Yadnesh Patil
 
 
@@ -20,6 +22,7 @@ which is often a critical factor in saving lives.
 The solution is designed to work even in low-connectivity environments by using SMS-based communication through GSM modules.
 
 
+
 2. Problem Statement
 
 Road accidents remain one of the leading causes of fatalities worldwide. In many cases, victims are unable to call for help due 
@@ -27,6 +30,7 @@ to unconsciousness or severe injuries. As a result, emergency responders are inf
 
 Traditional accident reporting relies heavily on manual reporting by witnesses, which may not always occur immediately. 
 This project aims to solve that problem by automatically detecting accidents and sending alerts without requiring human intervention.
+
 
 
 3. Objectives
@@ -44,6 +48,7 @@ The primary objectives of the Accidental Messenger system include:
 5.Reduce response time for emergency services.
 
 6.Improve overall road safety using smart technology.
+
 
 
 4. System Architecture
@@ -68,11 +73,13 @@ Software Components:
 4.Database for storing accident logs
 
 
+
 Architecture Flow:
                   Sensors → Microcontroller → GPS Location Detection → Alert System → SMS Notification
                   
 The sensors monitor vehicle motion continuously. When a sudden impact or abnormal movement is detected,
 the system processes the event and triggers an alert workflow.
+
 
 
 5. Working Mechanism
@@ -99,6 +106,7 @@ Step 5: Emergency Notification
 The GSM module sends SMS alerts to emergency contacts, hospitals, and responders.
 
 
+
 6. Key Features
 
 The Accidental Messenger system provides several important capabilities:
@@ -110,6 +118,7 @@ The Accidental Messenger system provides several important capabilities:
 5.Web dashboard for monitoring alerts and system status
 
 The system is designed to be scalable and can be integrated into smart transportation infrastructure.
+
 
 
 7. Technology Stack
@@ -126,6 +135,7 @@ Database	       |       MySQL
 ----------------------------------------------------
 
 
+
 8. Project Outcomes
 
 The project successfully demonstrated the ability to automatically detect 
@@ -140,6 +150,7 @@ Key results observed during testing include:
 The system can significantly reduce the delay between accident occurrence and emergency assistance.
 
 
+
 9. Future Enhancements
 
 Future improvements for the system include:
@@ -149,6 +160,7 @@ Future improvements for the system include:
 3.Smart city traffic system integration
 4.AI-based accident severity prediction
 5.Cloud-based accident data analytics
+
 
 
 10. Project Resources
@@ -162,6 +174,8 @@ https://github.com/arduino/Arduino
 IoT Documentation Guide
 https://docs.microsoft.com/en-us/azure/iot/
 
+
+
 11. Author
 
 Yadnesh Patil
@@ -171,6 +185,7 @@ Technical Writing Enthusiast
 LinkedIn: https://www.linkedin.com/in/yadnesh-patil-799a9b29a/
 
 GitHub: https://github.com/Yadnesh-Patil-12
+
 
 
 12. Documentation Purpose
